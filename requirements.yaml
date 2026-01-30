@@ -1,5 +1,5 @@
 ---
 roles:
-  - name: jenkins
-    src: https://github.com/TaingAnKorm/jenkins-role
+  - name: nfs
+    src: https://github.com/TaingAnKorm/nfs-role
     version: master

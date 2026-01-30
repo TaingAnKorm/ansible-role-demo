@@ -1,0 +1,9 @@
+---
+- name: Setup NFS Server using Galaxy role
+  hosts: local
+  become: true
+  vars:
+    nfs_mode: server
+    nfs_export_path: /srv/nfs
+  roles:
+    - nfs
