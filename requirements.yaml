@@ -1,0 +1,5 @@
+---
+roles:
+  - name: jenkins
+    src: https://github.com/TaingAnKorm/jenkins-role
+    version: master

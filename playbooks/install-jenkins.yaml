@@ -1,0 +1,6 @@
+---
+- name: Install Jenkins using Galaxy role
+  hosts: local
+  become: true
+  roles:
+    - jenkins
